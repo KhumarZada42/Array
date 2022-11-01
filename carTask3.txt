@@ -1,0 +1,45 @@
+
+// TAsk3
+ var car=[
+     {
+        Brand:"Toyota",
+        Model:"Corolla",
+        Color:"white",
+        Year:2009
+    },
+    {
+        Brand:"McLaren",
+        Model:"F1",
+        Color:"red",
+        Year:1990
+    },
+    {
+        Brand:"Porsche",
+        Model:"718 Boxster",
+        Color:"yellow",
+        Year:2020
+    },
+    {
+        Brand:"BMW",
+        Model:"320i",
+        Color:"blue",
+        Year:2006
+    },
+    {
+        Brand:"Nissan",
+        Model:"GT-R",
+        Color:"orange",
+        Year:2008
+    },
+    {
+        Brand:"Ford",
+        Model:"Taurus",
+        Color:"black",
+        Year:1993
+     }
+ ]
+ for(var i = 0;i<car.length;i++){
+     if(car[i].year > 2010){
+        console.log(car[i])
+   }
+}
